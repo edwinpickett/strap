@@ -1,3 +1,9 @@
 body {
-    background: #000;
+    background: #34281e;
+    font-family: 'Fondamento', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: #867567;
 }
