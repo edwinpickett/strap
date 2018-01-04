@@ -7,3 +7,18 @@ h1 {
     text-align: center;
     color: #867567;
 }
+
+.menu {
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu li a {
+    list-style: none;
+    color: #867567;
+}
