@@ -9,11 +9,6 @@ body {
     color: #867567;
 }
 
-.page-home main {
-    background: url("../assets/home.png") 0 -50px;
-    background-size: cover;
-}
-
 a {
     color: #867567;
 }
@@ -64,3 +59,20 @@ header h1 {
     padding-top: 60px;
 }
 
+.page-home main {
+    background: url("../assets/home.png");
+    background-size: cover;
+}
+
+.page-home main .container {
+    overflow-y: scroll;
+}
+
+.page-contact main {
+    background: url("../assets/contact.png");
+    background-size: cover;
+}
+
+.page-contact main .container {
+    max-height: 285px;
+}
