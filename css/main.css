@@ -8,17 +8,15 @@ h1 {
     color: #867567;
 }
 
-.menu {
-
-}
-
-.menu li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.menu li a {
-    list-style: none;
+a {
     color: #867567;
+}
+
+a:hover {
+    color: #867567;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
 }
