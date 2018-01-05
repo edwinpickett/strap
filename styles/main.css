@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #000;
+    font-family: 'Fondamento', cursive;
+    color: #867567;
+}
+
+.page-home main {
+    background: url("../assets/home.png") 0 -50px;
+    background-size: cover;
+}
+
+a {
+    color: #867567;
+}
+
+a:hover {
+    color: #867567;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    height: 50px;
+    padding-top: 12px;
+}
+
+main {
+    min-height: calc(100% - 360px);
+    padding: 40px;
+}
+
+main .container {
+    background: rgba(37,34,31, .75);
+    max-height: 700px;
+    padding: 40px;
+    overflow: scroll;
+}
+
+footer {
+    background: url("../assets/footer.png");
+    height: 150px;
+    background-size: cover;
+}
+
+footer blockquote {
+    text-align: center;
+    padding-top: 35px;
+}
+
+header {
+    background: url("../assets/header.png");
+    height: 160px;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 60px;
+}
