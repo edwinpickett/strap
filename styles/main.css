@@ -19,7 +19,8 @@ a {
 }
 
 a:hover {
-    color: #867567;
+    color: #54483E;
+    text-decoration: none;
 }
 
 .menu a {
@@ -32,13 +33,13 @@ a:hover {
 main {
     min-height: calc(100% - 360px);
     padding: 40px;
+    background: #867567;
 }
 
 main .container {
     background: rgba(37,34,31, .75);
     max-height: 700px;
     padding: 40px;
-    overflow: scroll;
 }
 
 footer {
@@ -62,3 +63,4 @@ header h1 {
     text-align: center;
     padding-top: 60px;
 }
+

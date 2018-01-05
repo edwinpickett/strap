@@ -1,0 +1,28 @@
+.form-control {
+    border-radius: 0;
+    background: rgba(37,34,31, .75);
+    color: #867567;
+}
+
+.form-control:focus {
+    border-radius: 0;
+    background: rgba(37,34,31, .75);
+    color: #867567;
+    border-color: #867567;
+}
+
+.btn {
+    border-radius: 0;
+    background: rgba(37,34,31, .75);
+    color: #867567;
+    border: 1px solid #54483E;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #867567;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    background: rgba(37,34,31, .75);
+    outline: 5px auto #867567;
+}
