@@ -1,9 +1,9 @@
 App = {
 
     preloadImages: [
-        '/assets/contact.png',
-        '/assets/music.png',
-        '/assets/home.png'
+        // '/assets/contact.png',
+        // '/assets/music.png',
+        // '/assets/home.png'
     ],
 
     init: function () {
@@ -15,8 +15,12 @@ App = {
     },
 
     preload: function (urls) {
-
         return new Promise(function (resolve, reject) {
+
+            if(!urls.length) {
+                resolve();
+            }
+
             var loadedCounter = 0;
             var toBeLoadedNumber = urls.length;
             urls.forEach(function (url) {
