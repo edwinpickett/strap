@@ -17,6 +17,10 @@ a:hover {
     color: #54483E;
     text-decoration: none;
 }
+a:active {
+    color: #2F2115
+    text-decoration: none;
+}
 
 .menu a {
     display: block;
