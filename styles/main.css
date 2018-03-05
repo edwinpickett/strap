@@ -143,3 +143,9 @@ header h1 {
 .text-center {
     text-align: center;
 }
+.t {
+font-size: 2em;
+    margin: auto;
+    width: 28px;
+    display: block;
+}
