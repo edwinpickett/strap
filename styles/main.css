@@ -1,7 +1,6 @@
 html {
     height: 100%;
 }
-
 body {
     height: 100%;
     background: #000;
@@ -14,8 +13,9 @@ a {
 }
 
 a:hover {
-    color: #54483E;
+    color: #A7907D;
     text-decoration: none;
+    transition: color 0.33s ease-in-out;
 }
 a:active {
     color: #2F2115
@@ -78,13 +78,25 @@ header h1 {
 }
 
 .page-contact main {
-    background: url("../assets/contact.png");
+    background: url("../assets/home.png");
     background-size: cover;
     overflow: auto;
 }
 
 .page-home main .container,
-.page-contact main .container {
+.page-contact main,.container {
+    max-height: 480px;
+    overflow: auto;
+}    
+.page-journal main {
+    background: url("../assets/journal.png");
+    background-size: cover;
+}
+
+.page-journal main .container {
+    overflow-y: scroll;
+}
+.page-journal main .container{
     max-height: 480px;
     overflow: auto;
 }
@@ -149,3 +161,33 @@ font-size: 2em;
     width: 28px;
     display: block;
 }
+
+main .container_2 {
+    background: rgba(37, 34, 31, .75);
+    max-height: 600px;
+    padding: 11px;
+    overflow-y: auto;
+
+}
+main .container_2 h2 {
+    text-align:left;
+    font-size:26px;
+}
+
+.blogphoto {
+    margin: auto;
+    display: block;
+}
+.img-thumbnail {
+    background-color: #60544A;
+    border: 3px solid black;
+    padding:3px;
+
+}
+.img-thumbnail:hover {
+    background-color: #A7907D;
+    border: 3px solid black;
+    padding:3px;
+
+}
+
