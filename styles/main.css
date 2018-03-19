@@ -89,7 +89,7 @@ header h1 {
     overflow: auto;
 }    
 .page-journal main {
-    background: url("../assets/journal.png");
+    background: url("../assets/home.png");
     background-size: cover;
 }
 
