@@ -84,7 +84,7 @@ header h1 {
 }
 
 .page-home main .container,
-.page-contact main .container {
+.page-contact main,.container {
     max-height: 480px;
     overflow: auto;
 }
@@ -147,5 +147,22 @@ header h1 {
 font-size: 2em;
     margin: auto;
     width: 28px;
+    display: block;
+}
+
+main .container_2 {
+    background: rgba(37, 34, 31, .75);
+    max-height: 600px;
+    padding: 11px;
+    overflow-y: auto;
+
+}
+main .container_2 h2 {
+    text-align:left;
+    font-size:26px;
+}
+
+.blogphoto {
+    margin: auto;
     display: block;
 }
