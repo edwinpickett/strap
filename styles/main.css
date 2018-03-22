@@ -36,7 +36,7 @@ main {
 }
 
 main .container {
-    background: rgba(37, 34, 31, .75);
+    background: rgba(37, 34, 31, .80);
     max-height: 800px;
     padding: 40px;
 }
